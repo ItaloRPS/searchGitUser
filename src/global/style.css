@@ -1,0 +1,12 @@
+.App{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template:
+		"nav nav"
+		"user repost";
+		
+}
+
+header{
+	grid-area: nav;
+}
